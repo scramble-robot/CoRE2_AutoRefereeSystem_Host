@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoRE2_AutoRefereeSystem_Host", "CoRE-2_2024\CoRE2_AutoRefereeSystem_Host.csproj", "{A39A291E-878F-4C63-87E8-A489BAB73DDC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{4B02024D-2B80-486E-B683-6CAFAE4C2100}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoRE2_AutoRefereeSystem_Host", "CoRE2_AutoRefereeSystem_Host\CoRE2_AutoRefereeSystem_Host.csproj", "{B497998E-EB85-4998-AE1F-529B297B5EAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A39A291E-878F-4C63-87E8-A489BAB73DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A39A291E-878F-4C63-87E8-A489BAB73DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A39A291E-878F-4C63-87E8-A489BAB73DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A39A291E-878F-4C63-87E8-A489BAB73DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B497998E-EB85-4998-AE1F-529B297B5EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B497998E-EB85-4998-AE1F-529B297B5EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B497998E-EB85-4998-AE1F-529B297B5EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B497998E-EB85-4998-AE1F-529B297B5EAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DF7DAED1-5A00-4733-BEFD-BE794EF7EFBB}
+		SolutionGuid = {F2A9BDC3-BE63-4CE9-A745-F86D3598DBDD}
 	EndGlobalSection
 EndGlobal
