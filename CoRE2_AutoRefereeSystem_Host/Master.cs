@@ -77,10 +77,10 @@ namespace CoRE2_AutoRefereeSystem_Host
 
         public int HitDamage { private set; get; } = 10;
 
-        public int AttackBuffTime { private set; get; } = 30;
+        public int AttackBuffTime { private set; get; } = 45;
 
         public int PenaltyDamage { private set; get; } = 10;
-        public int RespawnTime { private set; get; } = 60;
+        public int RespawnTime { private set; get; } = 45;
         public int RespawnHP { private set; get; } = 30;
         public int InvincibleTime { private set; get; } = 5;
 
