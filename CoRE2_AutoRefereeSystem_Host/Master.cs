@@ -50,12 +50,12 @@ namespace CoRE2_AutoRefereeSystem_Host
         };
 
         public Dictionary<string, int> HostCH = new Dictionary<string, int> {
-            {"Red1", 2},
+            {"Red1", 1},
             {"Red2", 3},
-            {"Red3", 4},
-            {"Blue1", 6},
-            {"Blue2", 8},
-            {"Blue3", 9}
+            {"Red3", 5},
+            {"Blue1", 2},
+            {"Blue2", 4},
+            {"Blue3", 6}
         };
 
         /***** 試合のルール *******************************************************************************************************/
