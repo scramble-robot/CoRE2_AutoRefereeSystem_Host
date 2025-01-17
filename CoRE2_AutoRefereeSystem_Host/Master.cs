@@ -24,33 +24,29 @@ namespace CoRE2_AutoRefereeSystem_Host
 
         // 出場チーム
         public string[] TeamName = {   "",
-                                "[FRCI]FRENTE-Cielo",
-                                "[FRRO]FRENTE-Rosa",
-                                "[FRSE]FRENTE-Selva",
-                                "[FLBR]Front Line Breakers",
-                                "[GRGA]GIRASOLE-Gauss",
-                                "[GRVO]GIRASOLE-Volta",
-                                "[KMOK]KmoKHS-CoRE",
-                                "[KTTM]KT-tokitama",
-                                "[SHND]SCHWARZ-HANEDA",
                                 "[VXGA]VERTEX-Gamma",
                                 "[VXZE]VERTEX-Zeta",
-                                "[HYLI]東山Lightning"};
+                                "[FRCI]FRENTE-Cielo",
+                                "[FRRO]FRENTE-Rosa",
+                                "[YKHK]YOOKATORE-Hakata",
+                                "[KTTM]KT-tokitama",
+                                "[JKK]jkk女坂",
+                                "[KMOK]KmoKHS-CoRE",
+                                "[RKGR]洛北ギアーズ"};
 
         public Dictionary<string, int> TeamNodeNo = new Dictionary<string, int> {
-            {"", 2000},
-            {"[FRCI]FRENTE-Cielo", 2603},
-            {"[FRRO]FRENTE-Rosa", 2703},
-            {"[FRSE]FRENTE-Selva", 2803},
-            {"[FLBR]Front Line Breakers", 2903},
-            {"[GRGA]GIRASOLE-Gauss", 3403},
-            {"[GRVO]GIRASOLE-Volta", 3203},
-            {"[KMOK]KmoKHS-CoRE", 3903},
-            {"[KTTM]KT-tokitama", 3803},
-            {"[SHND]SCHWARZ-HANEDA", 2403},
-            {"[VXGA]VERTEX-Gamma", 2103},
-            {"[VXZE]VERTEX-Zeta", 3303},
-            {"[HYLI]東山Lightning", 3003},
+            {"", 9999},
+            {"[VXGA]VERTEX-Gamma", 9999},
+            {"[VXZE]VERTEX-Zeta", 9999},
+            {"[FRCI]FRENTE-Cielo", 9999},
+            {"[FRRO]FRENTE-Rosa", 9999},
+            {"[YKHK]YOOKATORE-Hakata", 9999},
+            {"[KTTM]KT-tokitama", 9999},
+            {"[JKK]jkk女坂", 9999},
+            {"[KMOK]KmoKHS-CoRE", 9999},
+            {"[VXGA]VERTEX-Gamma", 9999},
+            {"[VXZE]VERTEX-Zeta", 9999},
+            {"[RKGR]洛北ギアーズ", 9999},
         };
 
         public Dictionary<string, int> HostCH = new Dictionary<string, int> {
