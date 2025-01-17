@@ -44,8 +44,6 @@ namespace CoRE2_AutoRefereeSystem_Host
             {"[KTTM]KT-tokitama", 9999},
             {"[JKK]jkk女坂", 9999},
             {"[KMOK]KmoKHS-CoRE", 9999},
-            {"[VXGA]VERTEX-Gamma", 9999},
-            {"[VXZE]VERTEX-Zeta", 9999},
             {"[RKGR]洛北ギアーズ", 9999},
         };
 
