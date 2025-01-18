@@ -38,12 +38,12 @@ namespace CoRE2_AutoRefereeSystem_Host
             {"", 9999},
             {"[VXGA]VERTEX-Gamma", 2103},
             {"[VXZE]VERTEX-Zeta", 2503},
-            {"[FRCI]FRENTE-Cielo", 9999},
+            {"[FRCI]FRENTE-Cielo", 603},
             {"[FRRO]FRENTE-Rosa", 3503},
-            {"[YKHK]YOOKATORE-Hakata", 9999},
+            {"[YKHK]YOOKATORE-Hakata", 3103},
             {"[KTTM]KT-tokitama", 1303},
             {"[JKK]jkk女坂", 1503},
-            {"[KMOK]KmoKHS-CoRE", 9999},
+            {"[KMOK]KmoKHS-CoRE", 1403},
             {"[RKGR]洛北ギアーズ", 1203},
         };
 
