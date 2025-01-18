@@ -36,15 +36,15 @@ namespace CoRE2_AutoRefereeSystem_Host
 
         public Dictionary<string, int> TeamNodeNo = new Dictionary<string, int> {
             {"", 9999},
-            {"[VXGA]VERTEX-Gamma", 9999},
-            {"[VXZE]VERTEX-Zeta", 9999},
+            {"[VXGA]VERTEX-Gamma", 2103},
+            {"[VXZE]VERTEX-Zeta", 2503},
             {"[FRCI]FRENTE-Cielo", 9999},
-            {"[FRRO]FRENTE-Rosa", 9999},
+            {"[FRRO]FRENTE-Rosa", 3503},
             {"[YKHK]YOOKATORE-Hakata", 9999},
-            {"[KTTM]KT-tokitama", 9999},
-            {"[JKK]jkk女坂", 9999},
+            {"[KTTM]KT-tokitama", 1303},
+            {"[JKK]jkk女坂", 1503},
             {"[KMOK]KmoKHS-CoRE", 9999},
-            {"[RKGR]洛北ギアーズ", 9999},
+            {"[RKGR]洛北ギアーズ", 1203},
         };
 
         public Dictionary<string, int> HostCH = new Dictionary<string, int> {

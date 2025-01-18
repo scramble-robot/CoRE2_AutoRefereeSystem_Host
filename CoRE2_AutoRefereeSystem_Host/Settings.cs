@@ -74,28 +74,25 @@ namespace CoRE2_AutoRefereeSystem_Host
 
     public class NnChSettings {
         public Dictionary<string, int> TeamNodeNo = new Dictionary<string, int> {
-            {"", 2000},
-            {"[FRCI]FRENTE-Cielo", 2603},
-            {"[FRRO]FRENTE-Rosa", 2703},
-            {"[FRSE]FRENTE-Selva", 2803},
-            {"[FRBR]Front Line Breakers", 2903},
-            {"[GRGA]GIRASOLE-Gauss", 3403},
-            {"[GRVO]GIRASOLE-Volta", 3203},
-            {"[KMOK]KmoKHS-CoRE", 3903},
-            {"[KTTM]KT-tokitama", 3803},
-            {"[SHND]SCHWARZ-HANEDA", 2403},
+             {"", 9999},
             {"[VXGA]VERTEX-Gamma", 2103},
-            {"[VXZE]VERTEX-Zeta", 3303},
-            {"[HYLI]東山Lightning", 3003},
+            {"[VXZE]VERTEX-Zeta", 2503},
+            {"[FRCI]FRENTE-Cielo", 603},
+            {"[FRRO]FRENTE-Rosa", 3503},
+            {"[YKHK]YOOKATORE-Hakata", 1303},
+            {"[KTTM]KT-tokitama", 1303},
+            {"[JKK]jkk女坂", 1503},
+            {"[KMOK]KmoKHS-CoRE", 1403},
+            {"[RKGR]洛北ギアーズ", 1203},
         };
 
         public Dictionary<string, int> HostCH = new Dictionary<string, int> {
-            {"Red1", 2},
+            {"Red1", 1},
             {"Red2", 3},
-            {"Red3", 4},
-            {"Blue1", 6},
-            {"Blue2", 8},
-            {"Blue3", 9}
+            {"Red3", 5},
+            {"Blue1", 2},
+            {"Blue2", 4},
+            {"Blue3", 6}
         };
     }
 
