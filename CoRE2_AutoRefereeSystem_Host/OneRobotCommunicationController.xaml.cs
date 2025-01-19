@@ -402,7 +402,7 @@ namespace CoRE2_AutoRefereeSystem_Host
                                 if (BitHigh(info[4], i)) {
                                     robotStatus.HP -= attackBuff * Master.Instance.HitDamage;
                                     robotStatus.DamageTaken += attackBuff * Master.Instance.HitDamage;
-                                    robotStatus.AddRobotLog($"Hit DP{i}. HP decereased by {attackBuff * Master.Instance.HitDamage}, now at {robotStatus.HP}/{robotStatus.MaxHP}");
+                                    robotStatus.AddRobotLog($"Hit DP{i}. -{attackBuff * Master.Instance.HitDamage}, {robotStatus.HP}/{robotStatus.MaxHP}");
                                 }
                             }
                         }

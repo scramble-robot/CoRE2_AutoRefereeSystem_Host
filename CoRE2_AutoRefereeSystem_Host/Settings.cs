@@ -79,7 +79,7 @@ namespace CoRE2_AutoRefereeSystem_Host
             {"[VXZE]VERTEX-Zeta", 2503},
             {"[FRCI]FRENTE-Cielo", 603},
             {"[FRRO]FRENTE-Rosa", 3503},
-            {"[YKHK]YOOKATORE-Hakata", 1303},
+            {"[YKHK]YOOKATORE-Hakata", 3103},
             {"[KTTM]KT-tokitama", 1303},
             {"[JKK]jkk女坂", 1503},
             {"[KMOK]KmoKHS-CoRE", 1403},
