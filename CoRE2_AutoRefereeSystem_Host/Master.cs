@@ -827,43 +827,28 @@ namespace CoRE2_AutoRefereeSystem_Host
             Msgs.Robot[11] = blueAutoRobot;
 
             // UDPでデータを送信
-            try {
-                string json = JsonConvert.SerializeObject(Msgs);
-                byte[] data = Encoding.UTF8.GetBytes(json);
+            SendInfo("192.168.0.2");
+            SendInfo("192.168.0.3");
+            SendInfo("192.168.0.11");
+            SendInfo("192.168.0.12");
+            SendInfo("192.168.0.13");
+            SendInfo("192.168.0.21");
+            SendInfo("192.168.0.22");
+            SendInfo("192.168.0.23");
 
-                await _udpClient.SendAsync(data, data.Length, "192.168.100.100", _port);
-            } catch (Exception ex) {
-                Debug.WriteLine(ex.ToString());
-            }
-
-            try {
-                string json = JsonConvert.SerializeObject(Msgs);
-                byte[] data = Encoding.UTF8.GetBytes(json);
-
-                await _udpClient.SendAsync(data, data.Length, "192.168.100.101", _port);
-            } catch (Exception ex) {
-                Debug.WriteLine(ex.ToString());
-            }
-
-            try {
-                string json = JsonConvert.SerializeObject(Msgs);
-                byte[] data = Encoding.UTF8.GetBytes(json);
-
-                await _udpClient.SendAsync(data, data.Length, "192.168.100.102", _port);
-            } catch (Exception ex) {
-                Debug.WriteLine(ex.ToString());
-            }
-
-            try {
-                string json = JsonConvert.SerializeObject(Msgs);
-                byte[] data = Encoding.UTF8.GetBytes(json);
-
-                await _udpClient.SendAsync(data, data.Length, "192.168.100.103", _port);
-            } catch (Exception ex) {
-                Debug.WriteLine(ex.ToString());
-            }
 
             Interlocked.Exchange(ref isSending, 0);
+        }
+
+        private async void SendInfo(string ip) {
+            try {
+                string json = JsonConvert.SerializeObject(Msgs);
+                byte[] data = Encoding.UTF8.GetBytes(json);
+
+                await _udpClient.SendAsync(data, data.Length, ip, _port);
+            } catch (Exception ex) {
+                Debug.WriteLine(ex.ToString());
+            }
         }
 
         private int Bool2Int(bool value) {
